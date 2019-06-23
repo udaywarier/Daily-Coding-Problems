@@ -5,7 +5,7 @@ def array_sum_exists(k, arr):
         complement = k - arr[i]
 
         if complement > 0:
-            if arr[i] in complements.keys():
+            if arr[i] in complements:
                 return True
             else:
                 complements[complement] = arr[i]
