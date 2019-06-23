@@ -9,7 +9,7 @@ console.log(array_sum_exists(k, input_array)); //false
 k = 10;
 console.log(array_sum_exists(k, input_array)); //true
 
-k = 15;
+k = 5;
 console.log(array_sum_exists(k, input_array)); //false
 
 function array_sum_exists(k, arr)
