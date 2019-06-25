@@ -23,12 +23,11 @@ class Node:
       return level_order_result
 
     def print_level(self, node, level, level_order_result):
-      if(level is 0 and node != None):
-        level_order_result.append(node.val)
-      else:
-        if(node.left != None):
+      if(node != None):
+        if(level is 0 and node != None):
+          level_order_result.append(node.val)
+        else:
           self.print_level(node.left, level - 1, level_order_result)
-        if(node.right != None):
           self.print_level(node.right, level - 1, level_order_result)
 
     def height(self, node):
