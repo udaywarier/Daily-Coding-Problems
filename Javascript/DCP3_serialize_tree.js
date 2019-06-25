@@ -51,7 +51,7 @@ class Node
   {
     if(node != null)
     {
-      if(level == 0 && node != null)
+      if(level == 0)
       {
         level_order.push(node.val);
       }
