@@ -39,6 +39,7 @@ class Node
   breadth_first(node)
   {
     let level_order = [];
+    
     for(let i = 0; i < this.height(node) + 1; i++)
     {
       this.print_level(node, i, level_order);
