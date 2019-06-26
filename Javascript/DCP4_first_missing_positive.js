@@ -14,6 +14,7 @@ function first_missing_positive(arr)
 
 let arr = [3, 4, -1, 1]
 console.log(first_missing_positive(arr)) // 2
+
 arr = [1, 2, 0]
 console.log(first_missing_positive(arr)) // 3
 
